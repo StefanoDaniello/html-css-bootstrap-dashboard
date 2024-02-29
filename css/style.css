@@ -125,7 +125,7 @@ main .card{
 #todo a{
     text-decoration: underline;
 }
-#first-col ul li {
+#first-col ul li{
     display: flex;
     align-items: center;
 }
@@ -133,6 +133,13 @@ main .card{
 #first-col ul li span{
     margin-left: 10px;
 }
+#azioni ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* button utility  */
 .nav-button{
     padding: 5px 10px;
@@ -142,6 +149,13 @@ main .card{
 }
 .nav-button:hover{
     background-color: var(--color-secondary);
+}
+#stato ul li a{
+    color: var(--color-primary);
+    font-size: 10px;
+    padding: 5px 4px;
+    background-color: var(--color-button-green);
+    border-radius: 7px;
 }
 /* circle  */
 .circle{
