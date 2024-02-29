@@ -17,16 +17,19 @@
 	--color-grafic-color: #3e76d3;
 	--color-bell: #ff8f00;
 }
-ul{
+/* ul{
     list-style: none;
 }
 a{
     text-decoration: none;
-}
+} */
 .st-debag{
     border: 1px solid red;
 }
  /* general */
+ body{
+    font-family: "Roboto", sans-serif;
+ }
  .wrapper{
     width: 100%;
     height: 100vh;
@@ -50,6 +53,24 @@ header{
     background-color: var(--color-primary);
     width: 100%;
     padding: 10px;
+}
+#tool div:not(.icon){
+    margin: 5px;
+    color: var(--color-icon-color);
+    cursor: pointer;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    font-size: small;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
+    background-color: var(--color-icon-color);
 }
 
 /* nav  */
