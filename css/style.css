@@ -6,6 +6,7 @@
 }
 :root {
 	--color-primary: #ffffff;
+	--color-secondary: #000000;
 	--color-sidebar-first-bg: #051e34;
 	--color-nav-bg: #1b72e8;
 	--color-button-nav:#1a1a1a4f;
@@ -17,12 +18,20 @@
 	--color-grafic-color: #3e76d3;
 	--color-bell: #ff8f00;
 }
-/* ul{
+ul{
     list-style: none;
 }
 a{
     text-decoration: none;
-} */
+}
+img{
+    width: 100%;
+}
+.none{
+    display: none;
+}
+/* none-2 dare d-fle a-i-center  */
+
 .st-debag{
     border: 1px solid red;
 }
@@ -32,27 +41,30 @@ a{
  }
  .wrapper{
     width: 100%;
-    height: 100vh;
+    height:100vh;
     overflow: hidden;
 }
- .content{
-    height: 100vh;
-    width: 100%;
-    background-color: var(--color-buton-red);
-    overflow: hidden;
-}
+
 
 /* header  */
 header{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;   
+    width: 100%;
+    height: 80px; 
+    z-index: 1000;
 }
 .header-content{
     background-color: var(--color-primary);
     width: 100%;
     padding: 10px;
+}
+.img-container{
+   width: 150px;
+}
+.img-none{
+    width: 70px;
 }
 #tool div:not(.icon){
     margin: 5px;
@@ -76,15 +88,86 @@ header{
 /* nav  */
 nav{
     width: 200px;
-    height: 100%;
+    height: 100% ;
+    padding-top: 100px;
     background-color: var(--color-sidebar-first-bg);
 }
+nav div div{
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav div div span{
+    margin-left: 10px;
+}
+.nav-top{
+    height: 120px;
+}
+.nav-bottom{
+    height: calc(100% - 120px);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
 /* main  */
 main{
     height:100%;
-    width: calc(100% - 200px);
-    padding-top: 40px;
+    width: 100%;
+    padding-top: 79px;
 }
 main .card{
     margin-top: 2em;
+}
+
+
+
+/* button utility  */
+.nav-button{
+    padding: 5px 10px;
+    background-color: var(--color-button-nav);
+    color: var(--color-primary);
+    border-radius: 20px;
+}
+.nav-button:hover{
+    background-color: var(--color-secondary);
+}
+/* circle  */
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+/* margin utility */
+.st-ml5{
+    margin-left: 5px;
+}
+
+/* media utility  */
+@media screen and (max-width:1100px){
+    .block{
+        display: none;
+    }
+    .none{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:900px){
+    nav{
+        width: 50px;
+    }
+    nav div div span{
+        display: none;
+    }
+
+}
+@media screen and (max-width:767px){
+    .none-3{
+        display: none;
+    }
 }
