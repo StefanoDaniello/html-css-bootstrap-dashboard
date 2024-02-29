@@ -125,7 +125,14 @@ main .card{
 #todo a{
     text-decoration: underline;
 }
+#first-col ul li {
+    display: flex;
+    align-items: center;
+}
 
+#first-col ul li span{
+    margin-left: 10px;
+}
 /* button utility  */
 .nav-button{
     padding: 5px 10px;
