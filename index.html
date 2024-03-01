@@ -20,7 +20,7 @@
     <div class="wrapper d-flex">
         <header class=" bg-light py-2 st-debag ">
             <div class="header-content d-flex justify-content-between align-items-center ">
-                <div class="img-container block">
+                <div class="img-container st-block">
                     <img src="img/logo.svg" alt="logo" >
                 </div>                
                 <div class="img-none none">
@@ -37,24 +37,36 @@
                       </form>
                 </div>
                 <div id="tool" class="d-flex align-items-center justify-content-center">
-                    <div class="block"><i class="fa-solid fa-bars"></i></div>
-                    <div class="icon block">
+                    <div class="st-block"><i class="fa-solid fa-bars"></i></div>
+                    <div class="icon st-block">
                         <i class="fa-solid fa-question"></i>
                     </div>
-                    <div class="block"><i class="fa-solid fa-info"></i></div> <!--drop-down-->
-                    <div class="text-warning "><i class="fa-solid fa-bell "></i></div>
-                    <!-- off-canvas  
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
-
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div class="dropdown st-block">
+                        <button  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div><i class="fa-solid fa-info"></i></div> 
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item active" href="#" aria-current="true">Active link</a></li>
+                          <li><a class="dropdown-item " href="#">normal link</a></li>
+                          <li><a class="dropdown-item disabled" aria-disabled="true">Disabled link</a></li>
+                        </ul>
                     </div>
-                    <div class="offcanvas-body">
-                        ...
+                    <div>
+                        <button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <div class="text-warning "><i class="fa-solid fa-bell "></i></div>
+                        </button>
+    
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            ...
+                          </div>
+                        </div>
                     </div>
-                    </div>-->
+                   
                 </div>
             </div>
         </header>
@@ -65,18 +77,18 @@
                     <span>Home</span>
                 </div>
                 <div>
-                    <i class="fa-solid fa-house"></i>
-                    <span>Home</span>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span>Stats</span>
                 </div>
                 <div>
-                    <i class="fa-solid fa-house"></i>
-                    <span>Home</span>
+                    <i class="fa-solid fa-signal "></i>
+                    <span>Signials</span>
                 </div>
             </div>
             <div class="nav-bottom">
                 <div>
-                    <i class="fa-solid fa-house"></i>
-                    <span>Home</span>
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Admin</span>
                 </div>
             </div>
         </nav>
@@ -92,9 +104,9 @@
                             <div><a href="#" class="nav-button">3 app</a></div>
                             <div class="mx-1 d-flex align-items-center"><i class="fa-solid fa-angles-right"></i></div>
                             <div class="mx-1 nav-button none circle"><i class="fa-solid fa-plus"></i></div>
-                            <div class="block"><a href="#" class="nav-button mx-1">Piano blaze</a></div>
-                            <div class="block"><a href="#" class="nav-button mx-1">Piano blaze</a></div>
-                            <div class="block"><a href="#" class="nav-button mx-1">Piano blaze</a></div>
+                            <div class="st-block"><a href="#" class="nav-button mx-1">Piano blaze</a></div>
+                            <div class="st-block"><a href="#" class="nav-button mx-1">Piano blaze</a></div>
+                            <div class="st-block"><a href="#" class="nav-button mx-1">Piano blaze</a></div>
                         </div>
                     </div>
                     <div class="text-light ">
@@ -177,7 +189,7 @@
                                     </div>
 
                                     <div class="col-6 d-flex pt-4">
-                                        <div class="col-md-4 none-3 st-debag text-center">
+                                        <div class="col-md-4 none-3st-debag text-center">
                                             <ul class="list-group list-group-flush ">
                                                 <li class="list-group-item fw-bold">Data inizio</li>
                                                 <li class="list-group-item">15 Feb 2021</li>
@@ -348,12 +360,6 @@
                                       </div>
 
                                 </div>
-
-
-
-
-
-
                             </div>
                         </div>
 
