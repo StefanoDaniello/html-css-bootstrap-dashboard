@@ -150,7 +150,7 @@ table img{
 
 /* button utility  */
 .nav-button{
-    padding: 5px 9px;
+    padding: 5px 10px;
     background-color: var(--color-button-nav);
     color: var(--color-primary);
     border-radius: 20px;
@@ -196,27 +196,25 @@ tbody tr td a{
 }
 
 /* media utility  */
-@media screen and (max-width:1100px){
-    .st-block{
-        display: none;
-    }
-    .none{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } 
-}
-@media screen and (max-width:900px){
+
+@media screen and (max-width:767px){
     nav{
         width: 100px;
     }
     nav ul li a span{
         display: none;
     }
-
+    .st-block{
+        display: none;
+    }
+    .none{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    } 
 }
-@media screen and (max-width:767px){
 
+@media screen and (max-width:576px){
     .mini-nav{
         display: flex;
         flex-direction: column;
@@ -227,9 +225,6 @@ tbody tr td a{
     #tre{
         order: -1;
     }
-}
-
-@media screen and (max-width:576px){
     .none-3{
         display: none;
     }
