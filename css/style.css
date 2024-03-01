@@ -93,8 +93,9 @@ header{
 nav{
     width: 200px;
     height: 100% ;
-    padding-top: 100px;
+    padding-top: 30px;
     background-color: var(--color-sidebar-first-bg);
+    background-image: url(../img/sidebar-bg.png); 
 }
 nav div div{
     color: var(--color-primary);
@@ -193,7 +194,7 @@ main .card{
 }
 @media screen and (max-width:900px){
     nav{
-        width: 50px;
+        width: 100px;
     }
     nav div div span{
         display: none;
@@ -203,5 +204,15 @@ main .card{
 @media screen and (max-width:767px){
     .none-3{
         display: none;
+    }
+    .mini-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    #uno{
+        order: 3;
+    }
+    #tre{
+        order: -1;
     }
 }
