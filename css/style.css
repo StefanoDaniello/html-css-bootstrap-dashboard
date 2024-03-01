@@ -153,7 +153,7 @@ main .card{
 
 /* button utility  */
 .nav-button{
-    padding: 5px 10px;
+    padding: 5px 9px;
     background-color: var(--color-button-nav);
     color: var(--color-primary);
     border-radius: 20px;
@@ -180,7 +180,10 @@ main .card{
 .st-ml5{
     margin-left: 5px;
 }
-
+/* font utility  */
+.st-fs-s{
+    font-size: small;
+}
 /* media utility  */
 @media screen and (max-width:1100px){
     .st-block{
