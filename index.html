@@ -41,11 +41,13 @@
                     <div class="icon st-block">
                         <i class="fa-solid fa-question"></i>
                     </div>
+                    <div class="st-block"><i class="fa-solid fa-info"></i></div> 
 
-                        <!-- togliere  -->
-                    <div class="dropdown st-block">
+
+                    <div class="dropdown ">
                         <button  type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <div><i class="fa-solid fa-info"></i></div> 
+                            
+                            <div class="text-warning "><i class="fa-solid fa-bell "></i></div>
                         </button>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item active" href="#" aria-current="true">Active link</a></li>
@@ -53,25 +55,6 @@
                           <li><a class="dropdown-item disabled" aria-disabled="true">Disabled link</a></li>
                         </ul>
                     </div>
-
-
-                        <!-- mettere dropdown  -->
-                    <div>
-                        <button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                            <div class="text-warning "><i class="fa-solid fa-bell "></i></div>
-                        </button>
-    
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                          <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                          </div>
-                          <div class="offcanvas-body">
-                            ...
-                          </div>
-                        </div>
-                    </div>
-                   
                 </div>
             </div>
         </header>
@@ -125,10 +108,97 @@
 
                     <div class="d-flex text-light  d-flex align-items-center" id="tre">
                         <p>Nuovo studente</p>
-                        <button type="button" class="btn btn-outline-light mb-3 mx-2">
+
+                         <div>
+                        <button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"  class="btn btn-outline-light mb-3 mx-2">
                             <i class="fa-solid fa-plus "></i>
-                            <!-- mettere off canvas  -->
                         </button>
+                        
+    
+                        <div class="offcanvas offcanvas-end st-w-500" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <form class="row g-3">
+                                <div class="col-6">
+                                    <label for="inputNome4" class="form-label">Nome</label>
+                                    <input type="email" class="form-control" id="inputNome4">
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="inputCognome4" class="form-label">Cognome</label>
+                                    <input type="password" class="form-control" id="inputCognome4">
+                                </div>
+                                <div class="col-6">
+                                  <label for="inputEmail4" class="form-label">Email</label>
+                                    <div class="input-group">
+                                      <div class="input-group-text">@</div>
+                                      <input type="text" class="form-control" id="inputEmail4" >
+                                    </div>
+                                </div> 
+                                <div class="col-6">
+                                  <label for="inputPassword4" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="inputPassword4">
+                                </div>
+                                <div class="col-6">
+                                    <label for="inputEmail4" class="form-label">Indirizzo Email</label>
+                                      <div class="input-group">
+                                        <div class="input-group-text">@</div>
+                                        <input type="text" class="form-control" id="inputEmail4" >
+                                      </div>
+                                </div> 
+                                <div class="col-6">
+                                    <label for="inputPassword4" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword4">
+                                </div>
+
+                                <div class="col-12">
+                                  <label for="inputAddress" class="form-label">Indirizzo</label>
+                                  <input type="text" class="form-control" id="inputAddress" >
+                                </div>
+
+                                <div class="col-6">
+                                  <label for="inputCity" class="form-label">Città</label>
+                                  <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-4">
+                                  <label for="inputState" class="form-label">Stato</label>
+                                  <select id="inputState" class="form-select">
+                                    <option selected>Scegli</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="col-2">
+                                  <label for="inputZip" class="form-label">CAP</label>
+                                  <input type="text" class="form-control" id="inputZip">
+                                </div>
+
+
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Seleziona per proseguire
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div>
+                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                      </div>
+                                      <div class="mx-2">
+                                          <button type="submit" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                </div>
+                              </form>
+                          </div>
+                        </div>
+                    </div>
+
+
+
+                        
                     </div>
                 </div>
 
