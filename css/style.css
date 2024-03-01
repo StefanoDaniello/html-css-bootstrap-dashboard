@@ -195,6 +195,9 @@ table img{
     font-size: small;
 }
 /* width utility */
+.st-w-30{
+    width: 30px;
+}
 .st-w-500{
     min-width: 500px;
 }
