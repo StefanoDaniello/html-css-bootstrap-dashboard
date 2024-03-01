@@ -30,9 +30,6 @@ img{
 .none{
     display: none;
 }
-
-/* none-2 dare d-fle a-i-center  */
-
 .st-debag{
     border: 1px solid red;
 }
@@ -88,7 +85,6 @@ header{
     color: var(--color-primary);
     background-color: var(--color-icon-color);
 }
-
 /* nav  */
 nav{
     width: 200px;
@@ -120,12 +116,10 @@ main{
     height:100%;
     width: 100%;
     padding-top: 79px;
-    
 }
 main .card{
     margin-top: 2em;
 }
-
 #todo a{
     text-decoration: underline;
 }
@@ -166,13 +160,10 @@ tbody td span{
 #class-table th:nth-child(4){
     width: 70px;
 }
-
-
 table img{
     width: 30px;
     border-radius: 50%;
 }
-
 /* button utility  */
 .nav-button{
     padding: 5px 10px;
@@ -183,7 +174,6 @@ table img{
 .nav-button:hover{
     background-color: var(--color-secondary);
 }
-
 /* circle  */
 .circle{
     width: 30px;
@@ -201,9 +191,7 @@ table img{
 .st-w-500{
     min-width: 500px;
 }
-
 /* media utility  */
-
 @media screen and (max-width:767px){
     nav{
         width: 100px;
@@ -215,12 +203,11 @@ table img{
         display: none;
     }
     .none{
-        display: flex;
+       display: flex;
        justify-content: center;
        align-items: center;
     } 
 }
-
 @media screen and (max-width:576px){
     .mini-nav{
         display: flex;
