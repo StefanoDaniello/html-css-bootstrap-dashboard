@@ -18,7 +18,7 @@
 <body>
   
     <div class="wrapper d-flex">
-        <header class=" bg-light py-2 st-debag ">
+        <header class=" bg-light py-2">
             <div class="header-content d-flex justify-content-between align-items-center ">
                 <div class="img-container st-block">
                     <img src="img/logo.svg" alt="logo" >
@@ -29,10 +29,10 @@
                 <div class="container-fluid">
                     <form class="container-fluid">
                         <div class="input-group">
-                          <span class="input-group-text " id="basic-addon1">
+                          <span class="input-group-text bg-secondary-subtle" id="basic-addon1">
                             <i class="fa-solid fa-magnifying-glass"></i>
                           </span>
-                          <input type="text" class="form-control"  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" >
+                          <input type="text" class="form-control bg-secondary-subtle"  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" >
                         </div>
                       </form>
                 </div>
@@ -41,6 +41,8 @@
                     <div class="icon st-block">
                         <i class="fa-solid fa-question"></i>
                     </div>
+
+                        <!-- togliere  -->
                     <div class="dropdown st-block">
                         <button  type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <div><i class="fa-solid fa-info"></i></div> 
@@ -51,6 +53,9 @@
                           <li><a class="dropdown-item disabled" aria-disabled="true">Disabled link</a></li>
                         </ul>
                     </div>
+
+
+                        <!-- mettere dropdown  -->
                     <div>
                         <button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                             <div class="text-warning "><i class="fa-solid fa-bell "></i></div>
@@ -80,13 +85,14 @@
                     </div>
                     <div>
                         <i class="fa-solid fa-chart-simple"></i>
-                        <span>Stats</span>
+                        <span class="st-ml5">Stats</span>
                     </div>
                     <div>
                         <i class="fa-solid fa-signal "></i>
                         <span>Signials</span>
                     </div>
                 </div>
+                <!-- mtauto -->
                 <div class="nav-bottom">
                     <div>
                         <i class="fa-solid fa-gear"></i>
@@ -100,10 +106,10 @@
                     <div class="text-light " id="uno">
                         <div class="d-flex align-items-center pb-2">
                             <h2>Boolean</h2>
-                            <div><a href="#" class="nav-button st-ml5">Piano blaze</a></div>
+                            <div><a href="#" class="nav-button mx-1">Piano blaze</a></div>
                         </div>
-                        <div class="d-flex align-items-center " >
-                            <div><a href="#" class="nav-button">3 app</a></div>
+                        <div class="d-flex align-items-center flex-wrap" >
+                            <div><a href="#" class="nav-button ">3 app</a></div>
                             <div class="mx-1 d-flex align-items-center"><i class="fa-solid fa-angles-right"></i></div>
                             <div class="mx-1 nav-button none circle"><i class="fa-solid fa-plus st-fs-s"></i></div>
                             <div class="st-block"><a href="#" class="nav-button mx-1">Piano blaze</a></div>
@@ -121,6 +127,7 @@
                         <p>Nuovo studente</p>
                         <button type="button" class="btn btn-outline-light mb-3 mx-2">
                             <i class="fa-solid fa-plus "></i>
+                            <!-- mettere off canvas  -->
                         </button>
                     </div>
                 </div>
@@ -136,180 +143,178 @@
                                     <h2>Prossime Classi</h2>
                                 </div>
 
-                                <div class="container-fluid d-flex pb-3 ">
-                                    <div class="col-6 pt-4 " id="first-col">
-                                        <ul class="list-group list-group-flush ">
-                                            <li class="list-group-item fw-bold">Nome</li>
-
-                                            <li class="list-group-item">
-                                                <div class="circle overflow-hidden ">
-                                                    <img src="img/class-avatar.jpg" alt=""> 
-                                                </div>
-                                                <span>Classe 75</span>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <div class="circle overflow-hidden ">
-                                                    <img src="img/class-avatar.jpg" alt=""> 
-                                                </div>
-                                                <span>Classe 75</span>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <div class="circle overflow-hidden ">
-                                                    <img src="img/class-avatar.jpg" alt=""> 
-                                                </div>
-                                                <span>Classe 75</span>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <div class="circle overflow-hidden ">
-                                                    <img src="img/class-avatar.jpg" alt=""> 
-                                                </div>
-                                                <span>Classe 75</span>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <div class="circle overflow-hidden ">
-                                                    <img src="img/class-avatar.jpg" alt=""> 
-                                                </div>
-                                                <span>Classe 75</span>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <div class="circle overflow-hidden ">
-                                                    <img src="img/class-avatar.jpg" alt=""> 
-                                                </div>
-                                                <span>Classe 75</span>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <div class="circle overflow-hidden ">
-                                                    <img src="img/class-avatar.jpg" alt=""> 
-                                                </div>
-                                                <span>Classe 75</span>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <div class="circle overflow-hidden ">
-                                                    <img src="img/class-avatar.jpg" alt=""> 
-                                                </div>
-                                                <span>Classe 75</span>
-                                            </li>
-                                            <li class="list-group-item"></li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-6 d-flex pt-4">
-                                        <div class="col-md-4 none-3 st-debag text-center">
-                                            <ul class="list-group list-group-flush ">
-                                                <li class="list-group-item fw-bold">Data inizio</li>
-                                                <li class="list-group-item">15 Feb 2021</li>
-                                                <li class="list-group-item">15 Feb 2021</li>
-                                                <li class="list-group-item">15 Feb 2021</li>
-                                                <li class="list-group-item">15 Feb 2021</li>
-                                                <li class="list-group-item">15 Feb 2021</li>
-                                                <li class="list-group-item">15 Feb 2021</li>
-                                                <li class="list-group-item">15 Feb 2021</li>
-                                                <li class="list-group-item">15 Feb 2021</li>
-                                                <li class="list-group-item"></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2 none-3 st-debag text-center">
-                                            <ul class="list-group list-group-flush ">
-                                                <li class="list-group-item text-uppercase fw-bold">roi</li>
-                                                <li class="list-group-item">20<span>&percnt;</span></li>
-                                                <li class="list-group-item">20<span>&percnt;</span></li>
-                                                <li class="list-group-item">20<span>&percnt;</span></li>
-                                                <li class="list-group-item">20<span>&percnt;</span></li>
-                                                <li class="list-group-item">20<span>&percnt;</span></li>
-                                                <li class="list-group-item">20<span>&percnt;</span></li>
-                                                <li class="list-group-item">20<span>&percnt;</span></li>
-                                                <li class="list-group-item">20<span>&percnt;</span></li>
-                                                <li class="list-group-item"></li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="col-md-2 col-6 st-debag text-center" id="stato">
-                                            <ul class="list-group list-group-flush ">
-                                                <li class="list-group-item fw-bold">Stato</li>
-                                                <li class="list-group-item"><a href="#">Done</a></li>
-                                                <li class="list-group-item"><a href="#">Done</a></li>
-                                                <li class="list-group-item"><a href="#" class="bg-warning">process</a></li>
-                                                <li class="list-group-item"><a href="#">Done</a></li>
-                                                <li class="list-group-item"><a href="#" class="bg-danger">failed</a></li>
-                                                <li class="list-group-item"><a href="#">Done</a></li>
-                                                <li class="list-group-item"><a href="#" class="bg-danger">failed</a></li>
-                                                <li class="list-group-item"><a href="#">Done</a></li>
-                                                <li class="list-group-item"></li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="col-md-4 col-6 st-debag text-center" id="azioni">
-                                            <ul class="list-group list-group-flush ">
-                                                <li class="list-group-item fw-bold">Azioni</li>
-                                                <li class="list-group-item ">
+                                <div class="card-body">
+                                    <table class="table table-hover" >
+                                        <thead id="class-table">
+                                            <tr>
+                                                <th>Nome</th>
+                                                <th class="none-3">Data inizio</th>
+                                                <th class="d-none d-sm-table-cell">
+                                                 ROI</th>
+                                                <th>Stato</th>
+                                                <th>Azioni</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="class-table">
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#">Done</a></td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-pen"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
-                                                </li>
-                                                <li class="list-group-item ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#">Done</a></td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-pen"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
-                                                </li>
-                                                <li class="list-group-item ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#" class="bg-warning">process</a></td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-pen"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
-                                                </li>
-                                                <li class="list-group-item ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#">Done</a></td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-pen"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
-                                                </li>
-                                                <li class="list-group-item ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#" class="bg-danger">failed</a></td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-pen"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
-                                                </li>
-                                                <li class="list-group-item ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#">Done</a></td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-pen"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
-                                                </li>
-                                                <li class="list-group-item ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#" class="bg-danger">failed</a></td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-pen"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
-                                                </li>
-                                                <li class="list-group-item ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#">Done</a></td>
+                                                <td>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-pen"></i>
                                                     </button>
                                                     <button type="button" class="btn btn-outline-secondary mx-1">
                                                         <i class="fa-solid fa-trash"></i>
                                                     </button>
-                                                </li>
-                                                <li class="list-group-item"></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/class-avatar.jpg" alt="class-avatar">
+                                                    <span>Classe 75</span>
+                                                </td>
+                                                <td class="none-3">15 Feb 2021</td>
+                                                <td class="d-none d-sm-table-cell">20%</td>
+                                                <td class="d-sm-table-cell"><a href="#">Done</a></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-secondary mx-1">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-secondary mx-1">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
                                 </div>
+
+                          
 
                             </div>
 
